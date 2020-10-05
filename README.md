@@ -1,1 +1,1 @@
-# nintendoachivementmanagaer
+# nintendoachivementmanager
