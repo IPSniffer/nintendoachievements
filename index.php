@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 
-
-
 <html>
-<body>
+<title>Nintendo Achievements </title>
 
-<title><?php echo Welcome?></title>
-
+<?php
+	include 'includes/banner.php'
+?>
 
 <?php
 echo'
@@ -14,25 +13,18 @@ echo'
 '
 ?>
 
-<?php
-echo ' <a href="index.php"> <img src= "TestBanner4_cr.png" title= "Home" /></a>
-';
-?>
+<body>
+<h1><span style="font-weight: bold; color: red; font-size: 30px"; ><center>Achievement Forum</center></h1>
+		<div id="wrapper">
+		<div id="menu">
+			<a class="item" href="/index.php">Home</a>
+			<a class="item" href="/create_topic.php">Create a topic</a>
+			<a class="item" href="/create_cat.php">Create a category</a>
 
-
-
-<?php
-echo' <span style="font-weight: bold; color: red; font-size: 30px";  <b><center> Welcome to the Nintendo Achievement Manager</center></b><br>
-'?>
-
-<form action="index.php" method="POST">
-	Email:
-	<input type="text" id="usr_email" name="usr_email" />
-	Password
-	<input type="<center>password" id="usr_password" name="usr_password" />
-	<input name= "submitForm" id="submitForm" type="submit" value="Login" />
-
-
+			<div id="userbar">
+			<div id="userbar">Hello Example. Not you? Log out.</div>
+		</div>
+			<div id="content">
 
 
 </body>
