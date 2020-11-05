@@ -1,31 +1,29 @@
+<?php
+session_start();
+ ?>
 <!DOCTYPE html>
 
 <html>
-<title>Nintendo Achievements </title>
-
 <?php
 	include 'includes/banner.php'
 ?>
+
 
 <?php
 echo'
 <body style= "background-color:#2b2a2a;"
 '
 ?>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
+<link rel="stylesheet" type="text/css" href="styles/button.css" />
+
+</head>
 <body>
-<h1><span style="font-weight: bold; color: red; font-size: 30px"; ><center>Achievement Forum</center></h1>
-		<div id="wrapper">
-		<div id="menu">
-			<a class="item" href="/index.php">Home</a>
-			<a class="item" href="/create_topic.php">Create a topic</a>
-			<a class="item" href="/create_cat.php">Create a category</a>
-
-			<div id="userbar">
-			<div id="userbar">Hello Example. Not you? Log out.</div>
-		</div>
-			<div id="content">
-
-
+<form method="post" action="home.php">
+<center><button class="button"><span>Get Started</span></button></center>
+</form>
 </body>
 </html>
+<?php include 'includes/footer.php' ?>
