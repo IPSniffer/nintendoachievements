@@ -12,7 +12,7 @@ $polls = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <div class="content home">
 	<h2>Polls</h2>
 	<p>Welcome to the Poll, you can view the list of polls below.</p>
-	<a href="create.php" class="create-poll">Create Poll</a>
+	<a href="createpoll.php" class="create-poll">Create Poll</a>
 	<table>
         <thead>
             <tr>

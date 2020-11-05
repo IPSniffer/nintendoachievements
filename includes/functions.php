@@ -25,6 +25,7 @@ echo <<<EOT
     <nav class="navtop">
     	<div>
     		<h1>Achievements Voting & Poll System</h1>
+            <a href="home.php"><i class="fa fa-home"></i>Home</a>
             <a href="poll.php"><i class="fas fa-poll-h"></i>Polls</a>
     	</div>
     </nav>

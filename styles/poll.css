@@ -62,7 +62,7 @@ body {
 .home .create-poll {
       display: inline-block;
       text-decoration: none;
-      background-color: #38b673;
+      background-color: red;
       font-weight: bold;
       font-size: 14px;
       border-radius: 5px;
@@ -95,7 +95,7 @@ body {
       border-bottom: 1px solid #d3dae0;
 }
 .home table tbody tr:nth-child(even) {
-      background-color: #fbfcfc;
+      background-color: #2b2a2a;
 }
 .home table tbody tr:hover {
       background-color: #376ab7;
@@ -148,6 +148,9 @@ body {
       flex-flow: column;
       width: 400px;
 }
+.content label{
+  color: #ffffff;
+}
 .update form label {
       display: inline-flex;
       width: 100%;
@@ -166,7 +169,7 @@ body {
 }
 .update form input[type="submit"] {
       display: block;
-      background-color: #38b673;
+      background-color: red;
       border: 0;
       font-weight: bold;
       font-size: 14px;
@@ -209,7 +212,7 @@ body {
       display: inline-block;
       padding: 8px;
       border-radius: 5px;
-      background-color: #38b673;
+      background-color: red;
       border: 0;
       font-weight: bold;
       font-size: 14px;
