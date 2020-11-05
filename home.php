@@ -35,6 +35,7 @@ include 'includes/banner.php'
     <a>Welcome <?=$_SESSION['name']?>!</a>
 </div>
 
+<p>Welcome to Nintendo Achievements</P>
 
 </body>
 
