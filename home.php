@@ -10,18 +10,18 @@ if (!isset($_SESSION['loggedin'])){
 <html>
 <?php
 include 'includes/banner.php'
- ?>
+?>
 
- <?php
- echo'
- <body style= "background-color:#2b2a2a;"
- '
- ?>
+<?php
+echo'
+<body style= "background-color:#2b2a2a;"
+'
+?>
 
 <head>
 
-<link rel="stylesheet" type="text/css" href="styles/topnav.css"/>
-<title>Home</title>
+  <link rel="stylesheet" type="text/css" href="styles/topnav.css"/>
+  <title>Home</title>
 </head>
 <body>
   <div class="topnav">
@@ -32,12 +32,12 @@ include 'includes/banner.php'
     <a href="contact.php">Contact</a>
     <a href="about.php">About</a>
     <a href="includes/signout.php">Sign Out</a>
-    <a>Welcome <?=$_SESSION['name']?>!</a>
-</div>
+    <a href="profile.php">Welcome <?=$_SESSION['name']?>!</a>
+  </div>
 
-<p>Welcome to Nintendo Achievements</P>
+  <p style="color: white;">Welcome to Nintendo Achievements</P>
 
-</body>
+  </body>
 
-</html>
-<?php include 'includes/footer.php' ?>
+  </html>
+  <?php include 'includes/footer.php' ?>

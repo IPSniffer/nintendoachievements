@@ -19,6 +19,7 @@ session_start();
         <i class="fa fa-lock" style="font-size:36px"></i>
       </label>
       <input type="password" name="password" placeholder="Password" id="password" required>
+      <p><a href="register.php">Create Account?</a></p>
       <input type="submit" value="Login">
     </form>
   </div>
