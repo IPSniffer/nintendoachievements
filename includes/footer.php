@@ -5,7 +5,7 @@
 .footer{
   position: absolute;
   left: 0;
-  bottom: 1;
+  bottom: 0;
   width: 100%;
   background-color: red;
   color: black;

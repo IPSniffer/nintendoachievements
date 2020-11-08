@@ -53,3 +53,4 @@ if (isset($_GET['id'])) {
 </div>
 
 <?=template_footer()?>
+<?php include 'includes/footer.php' ?>

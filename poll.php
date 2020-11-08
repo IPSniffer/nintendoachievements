@@ -39,3 +39,4 @@ $polls = $stmt->fetchAll(PDO::FETCH_ASSOC);
 </div>
 
 <?=template_footer()?>
+<?php include 'includes/footer.php' ?>
