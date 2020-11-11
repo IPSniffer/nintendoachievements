@@ -32,7 +32,6 @@ if (isset($_GET['id'])) {
     die ('No poll ID specified.');
 }
 ?>
-
 <?=template_header('Poll Vote')?>
 
 <div class="content poll-vote">
